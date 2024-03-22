@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>JustGiving</label>
+    <protected>false</protected>
+    <values>
+        <field>encdi2__Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>encdi2__Definition__c</field>
+        <value xsi:type="xsd:string">{"flowDefinition":{"name":"Donor_Import_JustGiving"},"excludeRows":[{"column":"Fundraiser LastName","operator":"=","value":""},{"column":"Donation Payment Reference Date","operator":"=","value":""},{"column":"Donation Payment Reference","operator":"=","value":""},{"column":"Donor E-mail","operator":"=","value":""}],"mappings":[{"column":"Donation Payment Reference Date","field":"encdi2__Disbursement_Date__c","parameters":{"format":"DD/MM/YYYY"}},{"column":"Fundraiser FirstName","field":"encdi2__Contributor_First_Name__c"},{"column":"Fundraiser LastName","field":"encdi2__Contributor_Last_Name__c"},{"column":"Donor FirstName","field":"encdi2__Donor_First_Name__c"},{"column":"Donor LastName","field":"encdi2__Donor_Last_Name__c"},{"column":"Donor E-mail","field":"encdi2__Donor_Email__c"},{"column":"Donation Payment Reference","field":"encdi2__Transaction_Id__c"},{"column":"Net Total Charges By JustGiving","field":"encdi2__Merchant_Fee__c"},{"column":"Donation Amount","field":"encdi2__Amount__c"},{"column":"Donor Address Line 1","field":"encdi2__Donor_Address_1__c"},{"column":"Donor Address Line 2","field":"encdi2__Donor_Address_2__c"},{"column":"Donor Town","field":"encdi2__Donor_City__c"},{"column":"Donor County","field":"encdi2__Donor_County__c"},{"column":"Donor Postcode","field":"encdi2__Donor_Postal_Code__c"},{"column":"Donor Country","field":"encdi2__Donor_Country__c"}],"transforms":[]}</value>
+    </values>
+</CustomMetadata>
